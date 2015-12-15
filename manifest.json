@@ -5,9 +5,10 @@
   "permissions": [
     "https://mail.google.com/",
     "https://inbox.google.com/",
-    "http://localhost:3000/"
+    "http://localhost:8888/",
+    "http://10.128.76.82:8888/"
   ],
-  "content_security_policy": "script-src 'self' http://localhost:3000; object-src 'self'",
+  "content_security_policy": "script-src 'self' http://10.128.76.82:8888; object-src 'self'; script-src 'self' http://localhost:8888",
   "content_scripts" : [
     {
       "matches": ["https://mail.google.com/*", "https://inbox.google.com/*"],

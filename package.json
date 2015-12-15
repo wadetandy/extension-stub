@@ -10,5 +10,15 @@
     "htmlbars": ""
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "coffee": "^2.1.0",
+    "gulp": "^3.9.0",
+    "gulp-coffee": "^2.3.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-umd": "^0.2.0",
+    "rename": "^1.0.3",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0"
+  }
 }

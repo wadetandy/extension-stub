@@ -1,1 +1,1 @@
-InboxSDK.loadScript('http://localhost:3000/assets/extension/extension.js')
+InboxSDK.loadScript('http://10.128.76.82:8888/extension.js')
